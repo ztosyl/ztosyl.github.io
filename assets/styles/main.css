@@ -1,1 +1,9 @@
+nav {
+  display: block
+  text-align: center;
+}
 
+.nav {
+  background-color: black;
+  color: white;
+}
