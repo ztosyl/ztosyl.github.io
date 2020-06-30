@@ -23,7 +23,7 @@
 	&.inner-page {
 		&, & > .container > .row {
 			min-height: 600px;
-			height: calc(80vh);	
+			height: calc(80vh);
 		}
 	}
 	h1 {
@@ -36,7 +36,7 @@
 	}
 	.sub-text {
 		font-size: 1.4rem;
-		color: lighten($black, 50%);
+		color: #bd1220;
 		font-weight: 300;
 		@include media-breakpoint-down(md) {
 			color: $black;
@@ -83,13 +83,13 @@
 				object-fit: cover;
 			}
 		}
-	
+
 	}
 	.intro {
 		z-index: 3;
 		position: relative;
 		.heading {
-			
+
 			margin-left: -150px;
 			@include media-breakpoint-down(md) {
 				margin-left: 0;
@@ -148,7 +148,7 @@
 .service {
 	padding: 30px;
 	background: $white;
-	
+
 	border: 1px solid #eee;
 	border-top: 2px solid $primary;
 	transition: .3s all ease-in-out;
@@ -196,7 +196,7 @@
 		&:after {
 			opacity: 1;
 			visibility: visible;
-			
+
 		}
 	}
 }
@@ -247,7 +247,7 @@
 	}
 }
 
-.item { 
+.item {
   border: none;
   margin-bottom: 30px;
   border-radius: 4px;
