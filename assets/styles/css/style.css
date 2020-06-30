@@ -549,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .sub-text {
-        color: #000; } }
+        color:#bd1220; } }
   .site-blocks-cover .img-wrap {
     position: absolute;
     z-index: -1;
