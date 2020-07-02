@@ -665,17 +665,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900; }
   .readmore:after {
     position: absolute;
-    content: "\e5c8";
     top: 50%;
-    font-family: 'icomoon';
     right: 0;
-    opacity: 0;
-    visibility: hidden; }
+    opacity: 0; }
   .readmore:hover {
     padding-right: 30px; }
     .readmore:hover:after {
-      opacity: 1;
-      visibility: visible; }
+      opacity: 1; }
 
 .custom-progress {
   height: 7px; }

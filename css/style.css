@@ -662,29 +662,16 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-size: .75rem;
   letter-spacing: .1rem;
-  font-weight: 900;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  font-weight: 900; }
   .readmore:after {
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
     position: absolute;
-    content: "\e5c8";
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-family: 'icomoon';
     right: 0;
-    opacity: 0;
-    visibility: hidden; }
+    opacity: 0; }
   .readmore:hover {
     padding-right: 30px; }
     .readmore:hover:after {
-      opacity: 1;
-      visibility: visible; }
+      opacity: 1; }
 
 .custom-progress {
   height: 7px; }

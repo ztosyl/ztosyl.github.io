@@ -179,25 +179,17 @@
 	font-size: .75rem;
 	letter-spacing: .1rem;
 	font-weight: 900;
-	transition: .3s all ease;
 	&:after {
-		transition: .3s all ease;
 		position: absolute;
-		content: "\e5c8";
 		top: 50%;
 		transform: translateY(-50%);
-		font-family: 'icomoon';
 		right: 0;
 		opacity: 0;
-		visibility: hidden;
 	}
 	&:hover {
 		padding-right: 30px;
 		&:after {
-			opacity: 1;
-			visibility: visible;
-
-		}
+			opacity: 1;	}
 	}
 }
 
