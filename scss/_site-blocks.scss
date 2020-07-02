@@ -23,7 +23,7 @@
 	&.inner-page {
 		&, & > .container > .row {
 			min-height: 600px;
-			height: calc(80vh);	
+			height: calc(80vh);
 		}
 	}
 	h1 {
@@ -83,13 +83,13 @@
 				object-fit: cover;
 			}
 		}
-	
+
 	}
 	.intro {
 		z-index: 3;
 		position: relative;
 		.heading {
-			
+
 			margin-left: -150px;
 			@include media-breakpoint-down(md) {
 				margin-left: 0;
@@ -148,7 +148,7 @@
 .service {
 	padding: 30px;
 	background: $white;
-	
+
 	border: 1px solid #eee;
 	border-top: 2px solid $primary;
 	transition: .3s all ease-in-out;
@@ -181,9 +181,7 @@
 	font-weight: 900;
 	transition: .3s all ease;
 	&:after {
-		transition: .3s all ease;
 		position: absolute;
-		content: "\e5c8";
 		top: 50%;
 		transform: translateY(-50%);
 		font-family: 'icomoon';
@@ -196,7 +194,7 @@
 		&:after {
 			opacity: 1;
 			visibility: visible;
-			
+
 		}
 	}
 }
@@ -247,7 +245,7 @@
 	}
 }
 
-.item { 
+.item {
   border: none;
   margin-bottom: 30px;
   border-radius: 4px;
